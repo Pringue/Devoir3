@@ -21,6 +21,11 @@
 				{
 					connexion_simple();
 				}
+				else
+				{
+					$("#ville").empty();
+                    $("#region").empty();	
+				}
 			});
 		}
 	)
