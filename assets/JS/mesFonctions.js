@@ -63,7 +63,7 @@ function ville(id)
 
 function ajouterScore(nbVille)
 {
-    if ($("#nom").val() == "girard")
+    if ($("#nom").val() == "girard" || $("#nom").val() == "Girard")
     {
         $.ajax
         (
