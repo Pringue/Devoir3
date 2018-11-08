@@ -71,6 +71,7 @@ function ajouterScore(nbVille)
                 data:"id="+$("#regionS").val()+"&nbVille="+nbVille,
                 success:function(data)
                 {
+                    alert("Calcul éffectuer");
                     $("#ville").empty();
                     $("#region").empty();
                     $("#region").append(data);
@@ -92,6 +93,7 @@ function ajouterScore(nbVille)
                 data:"id="+$("#regionS").val()+"&nbVille="+nbVille,
                 success:function(data)
                 {
+                    alert("Calcul effectuer");
                     $("#ville").empty();
                     $("#region").empty();
                     $("#region").append(data);
