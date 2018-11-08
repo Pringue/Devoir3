@@ -13,11 +13,11 @@
 		{
 			$("#connexion").click(function()
 			{
-				if ($("#nom").val() == "girard")
+				if ($("#nom").val() == "girard" || $("#nom").val() == "Girard")
 				{
 					connexion_admin();
 				}
-				else
+				else if ($("#nom").val() == "royer" || $("#nom").val() == "Royer")
 				{
 					connexion_simple();
 				}
