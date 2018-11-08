@@ -9,16 +9,28 @@
 	<script src="assets/JS/mesFonctions.js"></script>
 	<script>
 	$(
-		function
+		function()
 		{
-			$("#").(function{
-
+			$("#connexion").click(function()
+			{
+				if ($("#nom").val() == "girard")
+				{
+					connexion_admin();
+				}
+				else
+				{
+					connexion_simple();
+				}
 			});
 		}
 	)
-	</script>dsd
+	</script>
 </head>
 <body>
-	<h1></h1>
+	<h1>Votre nom</h1><br>
+	<input type="text" id="nom"></br>
+	<input type="button" value="Connexion" id="connexion"></br>
+	<div id="region"></div><br>
+	<div id="ville"></div><br>
 </body>
 </html>
