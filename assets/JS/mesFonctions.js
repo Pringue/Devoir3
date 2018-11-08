@@ -7,6 +7,7 @@ function connexion_admin()
             url:"index.php/Welcome/connexionAdmin",
             success:function(data)
             {
+                $("#ville").empty();
                 $("#region").empty();
                 $("#region").append(data);
             },
